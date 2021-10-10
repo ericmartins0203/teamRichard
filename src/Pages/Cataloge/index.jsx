@@ -1,3 +1,5 @@
-export const Cataloge = () => {
+const Cataloge = () => {
   return <>Cataloge</>;
 };
+
+export default Cataloge;

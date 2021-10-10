@@ -1,3 +1,5 @@
-export const Signup = () => {
+const Signup = () => {
   return <>Signup</>;
 };
+
+export default Signup;

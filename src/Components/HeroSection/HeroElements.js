@@ -23,7 +23,7 @@ export const HeroContainer = styled.div`
         rgba(0, 0, 0, 0.2) 0%,
         rgba(0, 0, 0, 0.6) 100%
       ),
-      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%rgba, transparent 100%);
+      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
   }
 `;
@@ -58,6 +58,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
+  text-shadow: 2px 2px 2px black;
   color: var(--white);
   font-size: 48px;
   text-align: center;
@@ -71,6 +72,7 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroP = styled.p`
+  text-shadow: 2px 2px 2px black;
   margin-top: 24px;
   color: var(--white);
   font-size: 24px;
