@@ -6,6 +6,7 @@ export default createGlobalStyle`
         padding:0;
         box-sizing:border-box;
         outline:0;
+        font-family: "Encode Sans Expanded", sans-serif;
     }
 
     button{
@@ -18,4 +19,6 @@ export default createGlobalStyle`
         --black: #0c0d0d;
         --gray: #666360;
         --darkgray: #2C2A42;
+        --blue: #3070EB;
+        --whiteblue: #7CB5EE;
     }`;

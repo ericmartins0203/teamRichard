@@ -1,6 +1,6 @@
 import { Switch, Route } from "react-router-dom";
+import Home from "../Home";
 import { Cataloge } from "../Cataloge";
-import { Home } from "../Home";
 import { Movie } from "../Movie";
 import { Signup } from "../signup";
 import { Dashboard } from "../Dashboard";
