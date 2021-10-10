@@ -7,7 +7,7 @@ export const homeObjOne = {
   headline: "Pesquisas ilimitadas com muita informação",
   description:
     "Tenha acesso ao nosso catalogo exlusivo que permite consultar varias informações dos seus filmes favoritos",
-  buttonLabel: "Começar",
+  buttonLabel: "Faça parte",
   imgStart: false,
   img: require("../../images/svg-1.svg").default,
   alt: "Car",
@@ -17,15 +17,15 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: "discovery",
+  id: "discover",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
   topLine: "Avalie",
   headline: "Saiba as notas de cada filme",
   description: "Avalie os seus filmes favoritos, participe da comunidade ",
-  buttonLabel: "Começar",
-  imgStart: false,
+  buttonLabel: "Saiba Mais",
+  imgStart: true,
   img: require("../../images/svg-2.svg").default,
   alt: "Car",
   dark: true,
@@ -34,17 +34,17 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: "services",
+  id: "signup",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Organize",
-  headline: "Crie uma lista de filmes",
+  topLine: "Entre para o nosso time",
+  headline: "Criar uma conta é extremamente facil",
   description:
-    "Um ambiente onde você pode construir uma lista de filmes, para assistir e os que já assistiu",
-  buttonLabel: "Começar",
+    "tenha tudo configurado e pronto em menos de 10 minutos. Tudo que você precisa fazer é adicionar suas informações e você está pronto para ir",
+  buttonLabel: "Começe agora",
   imgStart: false,
-  img: require("../../images/svg-3.svg").default,
+  img: require("../../images/svg-4.svg").default,
   alt: "Car",
   dark: true,
   primary: true,
