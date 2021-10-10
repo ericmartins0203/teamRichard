@@ -1,4 +1,5 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
   FooterLink,
@@ -15,6 +16,9 @@ import {
 } from "./FooterElements";
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
   return (
     <FooterContainer>
       <FooterWrap>
@@ -66,7 +70,9 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Kenzie-IMDB</SocialLogo>
+            <SocialLogo to="/" onClick={toggleHome}>
+              Kenzie-IMDB
+            </SocialLogo>
             <WebsiteRights>
               KenzieIMDB © {new Date().getFullYear()} Todos os direitos
               reservados.
