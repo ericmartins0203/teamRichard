@@ -22,7 +22,7 @@ export const Routes = () => {
           <Movie />
         </Route>
 
-        <Route path="/Login">
+        <Route path="/Signin">
           <Login />
         </Route>
 
